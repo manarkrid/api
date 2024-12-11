@@ -25,7 +25,7 @@ app.use(cors({
 // Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/bookings', require('./routes/bookings'));
-app.use('/api/facilities', require('./routes/facilities'));
+app.use('/api/facility', require('./routes/facilities'));
 
 // Server
 const PORT = process.env.PORT || 5000;
